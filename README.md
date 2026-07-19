@@ -7,7 +7,7 @@
 * A new Active Directory domain (NMG.com) was built from scratch on a dedicated domain controller, replacing the previous MSP's undocumented environment with a clean, centrally managed foundation. The domain was structured around four Organizational Units: Finance, HR, IT, and Operations — mirroring the actual business departments, with a corresponding security group in each OU (Finance-Users, HR-Users, IT-Users, Operations-Users) to establish a flat, department-based RBAC model. Rather than managing permissions per individual, access is granted at the group level, reducing administrative overhead and eliminating inconsistent, unaudited permissions. All 15 users were provisioned using a strict, consistent naming convention and placed into the correct OU and security group at creation, removing the manual guesswork that previously left access unmanaged. This same structure made resolving access issues fast and reliable, since a user's OU and group membership clearly show what access they should have. Overall, the design gives Northstar a documented, auditable access model that directly addresses the HIPAA-related risks created by the prior lack of structure.
 
 ## Video Walkthrough
-[Add your video walkthrough link placeholder here. You will record this tomorrow and update this link so visitors can see a live demonstration of your lab environment.]
+https://www.loom.com/share/6502d61cf9d841cfaea6f388adc1afa9
 
 ## Tools Used
 * Windows Server
